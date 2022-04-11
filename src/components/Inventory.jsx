@@ -108,7 +108,7 @@ export const Inventory = () => {
         <span>{inv.inkpens}</span>
       </div>
             {/*calculate total and show it*/}
-      total: {inv.books + inv.notebooks + inv.pens + inv.inkpens}
+      total are: {inv.books + inv.notebooks + inv.pens + inv.inkpens}
     </div>
   );
 };
