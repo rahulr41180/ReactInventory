@@ -52,7 +52,7 @@ export const Inventory = () => {
       }}
     >
       <div className="items">
-        <span>Books: </span>
+        <span>Books are: </span>
         <button className="circlularButton" onClick = {() =>{
             handleBooks(1);
         }}>+</button>
@@ -66,7 +66,7 @@ export const Inventory = () => {
         <span>{inv.books}</span>
       </div>
       <div className="items">
-        <span>Notebooks: </span>
+        <span>Notebooks are: </span>
         <button className="circlularButton" onClick = {() =>{
             handlenotebooks(1)
         }}>+</button>
@@ -80,7 +80,7 @@ export const Inventory = () => {
         <span>{inv.notebooks}</span>
       </div>
       <div className="items">
-        <span>Pen: </span>
+        <span>Pen are: </span>
         <button className="circlularButton" onClick = {() =>{
             handlepens(1);
         }}>+</button>
@@ -94,7 +94,7 @@ export const Inventory = () => {
         <span>{inv.pens}</span>
       </div>
       <div className="items">
-        <span>Ink Pens: </span>
+        <span>Ink Pens are: </span>
         <button className="circlularButton" onClick = {() =>{
             handleinkpens(1);
         }}>+</button>
